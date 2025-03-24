@@ -1,13 +1,12 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+// src/App.jsx
+import React from 'react';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-      </Routes>
-    </Router>
+    <div className="app">
+      <HomePage />
+    </div>
   );
 }
 
